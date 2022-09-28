@@ -1,0 +1,23 @@
+.background {
+  height: 100vh;
+  background: black;
+}
+
+.background img {
+  width: 100%;
+  position: absolute;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.front-layer {
+  z-index: 2;
+}
+
+.mid-layer {
+  z-index: 1;
+}
+
+.back-layer {
+  z-index: 0;
+}
