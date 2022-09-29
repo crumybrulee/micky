@@ -42,3 +42,11 @@
   text-align: center;
   transform: translate(-50%, -50%);
 }
+
+#landing-page {
+  display: none;
+}
+
+/* #slider {
+  display: none;
+} */
