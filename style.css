@@ -1,0 +1,52 @@
+.background {
+  height: 100vh;
+}
+
+.background img {
+  width: 100%;
+  position: absolute;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.front-layer {
+  z-index: 2;
+}
+
+.landing-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.landing-content * {
+  color: aliceblue;
+}
+
+.mid-layer {
+  z-index: 1;
+}
+
+.back-layer {
+  z-index: 0;
+}
+
+.mulai-perjalanan {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  color: aliceblue;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+#landing-page {
+  display: none;
+}
+
+/* #slider {
+  display: none;
+} */
