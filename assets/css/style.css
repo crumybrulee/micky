@@ -765,7 +765,7 @@ section .container .content
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('./bg\ ff.jpg');
+    background-image: url('./bg\ ff.webp');
     background-size: cover;
 }
 
@@ -774,7 +774,7 @@ section .container .content
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('./bg\ biota.jpg');
+    background-image: url('./bg\ biota.webp');
     background-size: cover;
 }
 .container3
