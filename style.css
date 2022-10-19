@@ -1,0 +1,94 @@
+.background2 {
+  height: 100vh;
+}
+
+.background2 img {
+  width: auto;
+  position: absolute;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.front-layer2 {
+  z-index: 2;
+}
+
+.landing-content2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.landing-content2 * {
+  color: aliceblue;
+}
+
+.mid-layer2 {
+  z-index: 1;
+}
+
+.back-layer2 {
+  z-index: 0;
+}
+
+.mulai-perjalanan2 {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  color: aliceblue;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.slider3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: lightblue;
+  z-index: -2;
+}
+
+#landing-page2 {
+  display: none;
+  z-index: 4;
+}
+
+#slider2 {
+  display: none;
+}
+
+.micky-team {
+  font-family: Georgia, serif;
+  position: absolute;
+  opacity: 0;
+  z-index: 6;
+}
+
+.background-landing-animation2 {
+  height: 100vh;
+  width: 100vw;
+  background-color: darkslategray;
+  position: absolute;
+  z-index: 5;
+}
+
+.sliderAnimation2 {
+  background-color: aliceblue;
+  height: 175px;
+  width: 175px;
+  border-radius: 90pt;
+  z-index: 5;
+}
+
+.keanekaragaman-hayati {
+  display: none;
+}
+
+/* #landing-animation {
+
+} */

@@ -44,7 +44,6 @@ body{
   background: var(--body-bg-color);
   overflow-x: hidden;
   background: #111222;
-  /* background-image: url("./img/ciletuh-2.png"); */
   padding-bottom: 300px;
 }
 
@@ -246,16 +245,6 @@ section{
   margin: 10px 0;
 }
 
-/* ======= About section =======
-.about h2{
-  font-size: 3em;
-  font-weight: 600;
-}
-
-.about p{
-  margin: 25px 0;
-} */
-
 /* media queries (max-width: 1100px) */
 @media screen and (max-width: 1100px){
   header .nav-bar{
@@ -410,7 +399,6 @@ section{
 
 section h2
 {
-  margin-left: 200px;
   font-size: 3em;
   color: #fff;
   margin-bottom: 20px;
@@ -761,84 +749,401 @@ section .container .content
 /* FAUNA BIOTA KONTEN */
 .body3
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url('./bg\ ff.webp');
-    background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./bg\ ff.webp');
+  background-size: cover;
 }
 
 .body4
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url('./bg\ biota.webp');
-    background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./bg\ biota.webp');
+  background-size: cover;
 }
 .container3
 {
-    position: relative;
-    width: 1100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 30px;
+  position: relative;
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
 }
 .container3 h2{
-  background-color: rgb(0, 0, 0, .4);
-  padding: 7px;
-  border-radius: 10px;
-  margin-right: 18%;;
+background-color: rgb(0, 0, 0, .4);
+padding: 7px;
+border-radius: 10px;
+margin-right: 18%;;
 }
 .container3 .card3
 {
-    position: relative;
-    max-width: 600px;
-    height: 215px; 
-    margin: 30px 10px;
-    padding: 20px 15px;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
-    transition: 0.3s ease-in-out;
+  position: relative;
+  max-width: 600px;
+  height: 215px; 
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
 }
 .container3 .card3:hover
 {
-    height: 420px;
+  height: 420px;
 }
 .container3 .card3 .imgBx
 {
-    position: relative;
-    width: 350px;
-    max-height: 260px;
-    top: -60px;
-    z-index: 1;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
-    margin: auto;
+  position: relative;
+  width: 350px;
+  max-height: 260px;
+  top: -60px;
+  z-index: 1;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  margin: auto;
 }
 .container3 .card3 .imgBx img
 {
-    max-width: 100%;
-    border-radius: 4px;
+  max-width: 100%;
+  border-radius: 4px;
 }
 .container3 .card3 .content3
 {
-    position: relative;
-    margin-top: -140px;
-    padding: 10px 15px;
-    text-align: center;
-    color: rgb(12, 12, 12);
-    visibility: hidden;
-    opacity: 0;
-    transition: 00.3s ease-in-out;
-    font-weight: bold;
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: rgb(12, 12, 12);
+  visibility: hidden;
+  opacity: 0;
+  transition: 00.3s ease-in-out;
+  font-weight: bold;
 }
 .container3 .card3:hover .content3
 {
-    visibility: visible;
-    opacity: 1;
-    margin-top: -40px;
-    transition-delay: 00.3s;
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 00.3s;
 }
+
+/* zidan */
+.background2 {
+  height: 100vh;
+}
+
+.background2 img {
+  width: auto;
+  position: absolute;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.front-layer2 {
+  z-index: 2;
+}
+
+.landing-content2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.landing-content2 * {
+  color: aliceblue;
+}
+
+.mid-layer2 {
+  z-index: 1;
+}
+
+.back-layer2 {
+  z-index: 0;
+}
+
+.mulai-perjalanan2 {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  color: aliceblue;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.slider3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: lightblue;
+  z-index: -2;
+}
+
+#landing-page2 {
+  display: none;
+  z-index: 4;
+}
+
+#slider2 {
+  display: none;
+}
+
+.micky-team {
+  font-family: Georgia, serif;
+  position: absolute;
+  opacity: 0;
+  z-index: 6;
+}
+
+.background-landing-animation2 {
+  height: 100vh;
+  width: 100vw;
+  background-color: #111222;
+  position: absolute;
+  z-index: 5;
+}
+
+.sliderAnimation2 {
+  background-color: aliceblue;
+  height: 175px;
+  width: 175px;
+  border-radius: 90pt;
+  z-index: 5;
+}
+
+.keanekaragaman-hayati {
+  display: none;
+}
+
+/* footer */
+.container{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card{
+  position: relative;
+  background: #fff;
+  max-width: 250px;
+  width: 2500px;
+  margin: 30px;
+  border-radius: 2px;
+  box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
+}
+
+.card-image{
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.card-title span{
+  visibility: hidden;
+}
+
+.card-description span{
+  visibility: hidden;
+}
+
+.card-mediaIcons a i{
+  visibility: hidden;
+}
+
+.card-image img{
+  max-width: 100%; 
+  height: auto;
+  visibility: hidden;
+}
+
+.card-info{
+  position: relative;
+  color: #222;
+  padding: 20px;
+}
+
+.card-info h3{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.card-info p{
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+.card-info .card-mediaIcons{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-info .card-mediaIcons a{
+  color: #999;
+  font-size: 1.4em;
+  margin: 0 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: color 0.3s ease;
+}
+
+.card-info .card-mediaIcons a:hover{
+ color: #222;   
+}
+
+.loading{
+  position: relative;
+  background: #e2e2e2;
+  overflow: hidden;
+}
+
+.loading:before{
+ content: '';
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent); 
+ transform: translateX(-100%);
+ animation: loading 1.5s infinite;
+}
+
+@keyframes loading{
+  100%{
+      transform: translateX(100%);
+  }
+}
+
+/* footer */
+.body-footer{
+  overflow-y: hidden  ;
+}
+
+footer{
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+footer .social_icon, footer .menu{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+footer .social_icon li, footer .menu li{
+  list-style: none;
+}
+
+footer .social_icon li a{
+  font-size: 2em;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition : 0.5s;
+}
+
+footer .social_icon li a:hover{
+  transform: translateY(-10px);
+}
+
+footer .menu li a{
+  font-size: 1.2em;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+footer .menu li a:hover{
+  opacity: 1;
+}
+
+footer p{
+  color :#fff;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+footer .wave{
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("/assets/img/wave.png");
+  background-size: 1000px 100px;
+}
+
+footer .wave#wave1{
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWave 4s linear infinite;
+}
+footer .wave#wave2{
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 15px;
+  animation: animateWave_02 3s linear infinite;
+}
+
+footer .wave#wave3{
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 0;
+  animation: animateWave 3s linear infinite;
+}
+footer .wave#wave4{
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animateWave_02 4s linear infinite;
+}
+
+@keyframes animateWave{
+  0%{
+      background-position-x: 1000px;
+  }
+  100%{
+      background-position-x: 0px;
+  }
+} 
+
+@keyframes animateWave_02{
+  0%{
+      background-position-x: 0px;
+  }
+  100%{
+      background-position-x: 1000px;
+  }
+} 

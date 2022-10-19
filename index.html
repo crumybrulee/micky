@@ -4,484 +4,516 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Biodiversity of Ciletuh by Micky</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
   <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="stylesheet" href="./assets/css/landing.css">    
 </head>
 <body>
 
-  <!-- <header>
-    <div class="nav-bar">
-      <a href="" class="logo">Logo</a>
-      <div class="navigation">
-        <div class="nav-items">
-          <i class="uil uil-times nav-close-btn"></i>
-          <a href="#"><i class="uil uil-home"></i> Home</a>
-          <a href="#"><i class="uil uil-compass"></i> Explore</a>
-          <a href="#"><i class="uil uil-info-circle"></i> About</a>
-          <a href="#"><i clas s="uil uil-document-layout-left"></i> Blog</a>
-          <a href="#"><i class="uil uil-envelope"></i> Contact</a>
-        </div>
-      </div>
-      <i class="uil uil-apps nav-menu-btn"></i>
+  <!-- landing page -->
+  <section id="landing-animation">
+    <div id="landingAnimationBg" class="background-landing-animation2"></div>
+    <div class="sliderAnimation2 position-absolute top-50 start-50 translate-middle"></div>
+    <div class="micky-team fw-bold position-absolute top-50 start-50 translate-middle">Micky's Travel</div>
+  </section>
+  </div>
+  <section id="landing-page">
+    <div class="background">
+    <img src="./assets/img/Curug-Sodong1.jpg" class="landing front" data-value="3" alt="" />
     </div>
-  </header> -->
 
-  <!-- <section class="home">
-    <div class="media-icons">
-      <a href="#"><i class="uil uil-facebook-f"></i></a>
-      <a href="#"><i class="uil uil-instagram"></i></a>
-      <a href="#"><i class="uil uil-twitter"></i></a>
-    </div> -->
-
-    <div class="swiper bg-slider">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <img src="./assets/img/bg1.webp" alt="">
-          <div class="text-content">
-            <h2 class="title">Flora Fauna Langka</h2>
-            <p>As an environmentalist, it is appropriate to maintain rare flora and fauna</p>
-            <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button>
-          </div>
-        </div>
-        <div class="swiper-slide dark-layer">
-          <img src="./assets/img/bg2.webp" alt="">
-          <div class="text-content">
-            <h2 class="title">Area Konservasi</h2>
-            <p>Caring for biodiversity is an effort to love to care for the earth</p>
-            <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button>
-          </div>
-        </div>
-        <div class="swiper-slide dark-layer">
-          <img src="./assets/img/bg3.webp" alt="">
-          <div class="text-content">
-            <h2 class="title">Biota Laut</h2>
-            <p>Save the earth by cultivating it just like saving our lives</p>
-            <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <img src="./assets/img/bg4.webp" alt="">
-          <div class="text-content">
-            <h2 class="title">Area Budidaya</h2>
-            <p>Great attention gets paid to marine area cause the diversity of ocean is amazing</p>
-            <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button>
-          </div>
-        </div>
-      </div>
+    <div class="landing-content">
+    <div class="main-title">
+        <h1 class="title">Keanekaragaman Hayati</h1>
+        <h2 class="sub-title">Geopark Ciletuh Pelabuhan Ratu</div>
     </div>
+    <div class="mulai-perjalanan"></div>
+    <p class="mulai-perjalanan"></p>
+    <button type="button" onclick="landingPageToKH()" id="button-landing-page" class="mulai-perjalanan btn btn-outline-light"><a href="#home">Mulai Perjalanan</a></button>
+    </div>
+  </section>
+    <!-- boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     
-    <div class="bg-slider-thumbs">
-      <div class="swiper-wrapper thumbs-container">
-        <img src="./assets/img/bg1.webp" class="swiper-slide" alt="">
-        <img src="./assets/img/bg2.webp" class="swiper-slide" alt="">
-        <img src="./assets/img/bg3.webp" class="swiper-slide" alt="">
-        <img src="./assets/img/bg4.webp" class="swiper-slide" alt="">
+    <!-- gsa js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/EasePack.min.js"></script>
+    
+    <!-- landing js -->
+    <script src="./script.js"></script>
+    <script src="./assets/css/landing.css"></script>
+
+    <section id = home>
+      <div class="swiper bg-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./assets/img/bg1.webp" alt="">
+            <div class="text-content">
+              <h2 class="title">Flora Fauna Langka</h2>
+              <p>As an environmentalist, it is appropriate to maintain rare flora and fauna</p>
+              <button class="read-btn"><a href="#fauna">Read More</a><i class="uil uil-arrow-right"></i></button>
+            </div>
+          </div>
+          <div class="swiper-slide dark-layer">
+            <img src="./assets/img/bg2.webp" alt="">
+            <div class="text-content">
+              <h2 class="title">Area Konservasi</h2>
+              <p>Caring for biodiversity is an effort to love to care for the earth</p>
+              <button class="read-btn"><a href="#konservasi">Read More</a><i class="uil uil-arrow-right"></i></button>
+            </div>
+          </div>
+          <div class="swiper-slide dark-layer">
+            <img src="./assets/img/bg3.webp" alt="">
+            <div class="text-content">
+              <h2 class="title">Biota Laut</h2>
+              <p>Save the earth by cultivating it just like saving our lives</p>
+              <button class="read-btn"><a href="#biotalaut">Read More</a><i class="uil uil-arrow-right"></i></button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/img/bg4.webp" alt="">
+            <div class="text-content">
+              <h2 class="title">Area Budidaya</h2>
+              <p>Great attention gets paid to marine area cause the diversity of ocean is amazing</p>
+              <button class="read-btn"><a href="#budidaya">Read More</a><i class="uil uil-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-slider-thumbs">
+        <div class="swiper-wrapper thumbs-container">
+          <img src="./assets/img/bg1.webp" class="swiper-slide" alt="">
+          <img src="./assets/img/bg2.webp" class="swiper-slide" alt="">
+          <img src="./assets/img/bg3.webp" class="swiper-slide" alt="">
+          <img src="./assets/img/bg4.webp" class="swiper-slide" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="box">
+          <h2 data-jarallax-element="0 -200">Keanekaragaman Hayati Geopark<br> Ciletuh Palabuhanratu</h2>
+          <div class="container">
+              <div class="imgBx">
+                  <img src="./assets/img/Curug Cimarinjung.webp" class="jarallax-img">
+              </div>
+              <div class="content" data-jarallax-element="-200 0">
+                  <p>Keanekaragaman hayati adalah istilah yang diberikan untuk berbagai kehidupan di bumi. Kehidupan tersebut meliputi semua spesies tanaman, hewan dan mikroorganisme serta ekosistem dimana mereka hidup dan berinteraksi. Keragaman hayati dapat dieksplorasi berdasarkan pada 3 tingkatan: Keragaman Genetik, keragaman Spesies, dan Keragaman  Ekosistem.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section>
+      <div class="box">
+          <h2 data-jarallax-element="0 200">Keanekaragaman Hayati Geopark<br>Ciletuh Palabuhanratu</h2>
+          <div class="container">
+              <div class="imgBx">
+                  <img src="./assets/img/sungai.webp" class="jarallax-img">
+              </div>
+              <div class="content" data-jarallax-element="-200 0">
+                  <p>Keragaman genetik mengacu pada berbagai gen dalam suatu spesies. Setiap spesies terdiri dari individu-individu yang memiliki komposisi genetik tersendiri.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section>
+      <div class="box">
+          <h2 data-jarallax-element="0 -200">Keanekaragaman Hayati Geopark<br> Ciletuh Palabuhanratu</h2>
+          <div class="container">
+              <div class="imgBx">
+                  <img src="./assets/img/rusa.webp" class="jarallax-img">
+              </div>
+              <div class="content" data-jarallax-element="-200 0">
+                  <p>Dalam suatu spesies bisa juga terdapat populasi diskrit dengan gen yang khas. Gen mengandung informasi yang diperlukan untuk semua kehidupan di bumi. Mereka diturunkan dari orang tua kepada keturunannya.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+  <script src="./assets/js/jarallax.js"> </script>
+  <script src="./assets/js/jarallax-element.js"> </script>
+  <script type="text/javascript">
+      jarallax(document.querySelectorAll('.jarallax'), {
+          speed: 0.5
+      });
+  </script>
+
+  <!-- FLORA FAUNA -->
+  <section id="fauna">
+    <div class="body3">
+      <div class="container3">
+        <h2>FLORA FAUNA LANGKA</h2>
+        <div class="card3">
+            <div class="imgBx">
+                <img src="./assets/img/bg ff1.webp">
+            </div>
+            <div class="content3">
+            <div class="content3">
+              <p> Satwa liar yang dilindungi di Geopark Ciletuh sangat banyak dan beragam. Diantaranya dijumpai hewan seperti macan tutul, raptor (elang laut, elang ularbido dan elang brontok). Keragaman tanaman langka dan endemik seperti berbagai macam jenis bambu, laban, malaka, jeunti, kepuh, santigi, waru dan Raflesia Padma</p> 
+            </div>     
+        </div>      
+    </div>
+  </section>
+  <!-- show image -->
+  <section>
+      <div class="container_2">
+          <div class="row">
+          <div class="image">
+              <img src="./assets/img/flora fauna (1).webp" alt="">
+              <div class="details">
+              <div class="more">
+                  <a class="read-more">Brotok <span>Eagle</span></a>
+              </div>
+              </div>
+          </div>
+          <div class="image">
+              <img src="./assets/img/flora fauna (2).webp" alt="">
+              <div class="details">
+              <div class="more">
+                  <a class="read-more">Green <span>Turtle</span></a>
+              </div>
+              </div>
+          </div>
+          <div class="image">
+              <img src="./assets/img/flora fauna (3).webp" alt="">
+              <div class="details">
+              <div class="more">
+                  <a class="read-more">Long Tailed <span>Monkeys</span></a>
+              </div>
+              </div>
+          </div>
+          </div>
+          <div class="row">
+          <div class="image">
+              <img src="./assets/img/flora fauna (4).webp" alt="">
+              <div class="details">
+              <div class="more">
+                  <a class="read-more">Raflesia <span>Padma</span></a>
+              </div>
+              </div>
+          </div>
+          <div class="image">
+              <img src="./assets/img/flora fauna (5).webp" alt="">
+              <div class="details">
+              <div class="more">
+                  <a class="read-more">Black <span>Bamboo</span></a>
+              </div>
+              </div>
+          </div>
+          <div class="image">
+              <img src="./assets/img/flora fauna (6).webp" alt="">
+              <div class="details">
+              <div class="more">
+                  <a class="read-more">Various <span>Orchid</span></a>
+              </div>
+              </div>
+          </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- KONSERVASI AREA <section id="fauna"> -->
+  <section id="konservasi" class="konservasi">
+    <div class="container2">
+      <h2 class="main-title2">Area Konservasi</h2>
+      <div class="content2">
+        <div class="image2">
+          <img src="./assets/img/bg konservasi.webp" alt="">
+        </div>
+        <div class="text-box2">
+          <p>Area konservasi merupakan upaya menyelamatkan kehidupan di bumi dalam segala bentuk dan menjaga eksositem supaya berfungsi secara alami dan sehat. Keberadaan kawasan konservasi dalam sebuah geopark adalah hal yang paling utama. Geopark Ciletuh Palabuhanratu memiliki kawasan konservasi untuk perlindungan hayati dalam ekosistim yang alami berupa hutan primer dan hutan sekunder yaitu: Cagar Alam Cibanteng, Tangkubanparahu, Sukawayana, Suaka Margasatwa Cikepuh, dan Taman Wisata Alam Sukawayana yang dikelola Balai Konservasi Sumber Daya Alam (BKSDA) dan Konservasi Penyu Hijau dikelola Dinas Perikanan dan Kelautan, Provinsi Jawa Barat.</p>
+        </div>
       </div>
     </div>
   </section>
-
+  <!-- show image -->
   <section>
-    <div class="box">
-        <h2 data-jarallax-element="0 -200">Keanekaragaman Hayati Geopark<br> Ciletuh Palabuhanratu</h2>
-        <div class="container">
-            <div class="imgBx">
-                <img src="./assets/img/Curug Cimarinjung.webp" class="jarallax-img">
+      <div class="img-slider">
+          <div class="slide active">
+            <img src="./assets/img/konservasi (1).webp" alt="">
+            <div class="info">
+              <h2>Suaka Margasatwa Cikepuh</h2>
             </div>
-            <div class="content" data-jarallax-element="-200 0">
-                <p>Keanekaragaman hayati adalah istilah yang diberikan untuk berbagai kehidupan di bumi. Kehidupan tersebut meliputi semua spesies tanaman, hewan dan mikroorganisme serta ekosistem dimana mereka hidup dan berinteraksi. Keragaman hayati dapat dieksplorasi berdasarkan pada 3 tingkatan: Keragaman Genetik, keragaman Spesies, dan Keragaman  Ekosistem.</p>
-            </div>
-        </div>
-    </div>
-</section>
-<section>
-    <div class="box">
-        <h2 data-jarallax-element="0 200">Keanekaragaman Hayati Geopark<br>Ciletuh Palabuhanratu</h2>
-        <div class="container">
-            <div class="imgBx">
-                <img src="./assets/img/sungai.webp" class="jarallax-img">
-            </div>
-            <div class="content" data-jarallax-element="-200 0">
-                <p>Keragaman genetik mengacu pada berbagai gen dalam suatu spesies. Setiap spesies terdiri dari individu-individu yang memiliki komposisi genetik tersendiri.</p>
-            </div>
-        </div>
-    </div>
-</section>
-<section>
-    <div class="box">
-        <h2 data-jarallax-element="0 -200">Keanekaragaman Hayati Geopark<br> Ciletuh Palabuhanratu</h2>
-        <div class="container">
-            <div class="imgBx">
-                <img src="./assets/img/rusa.webp" class="jarallax-img">
-            </div>
-            <div class="content" data-jarallax-element="-200 0">
-                <p>Dalam suatu spesies bisa juga terdapat populasi diskrit dengan gen yang khas. Gen mengandung informasi yang diperlukan untuk semua kehidupan di bumi. Mereka diturunkan dari orang tua kepada keturunannya.</p>
-            </div>
-        </div>
-    </div>
-</section>
-<script src="./assets/js/jarallax.js"> </script>
-<script src="./assets/js/jarallax-element.js"> </script>
-<script type="text/javascript">
-    jarallax(document.querySelectorAll('.jarallax'), {
-        speed: 0.5
-    });
-</script>
-
-<!-- FLORA FAUNA -->
-<section>
-  <div class="body3">
-    <div class="container3">
-      <h2>FLORA FAUNA LANGKA</h2>
-      <div class="card3">
-          <div class="imgBx">
-              <img src="./assets/img/bg ff1.webp">
           </div>
-          <div class="content3">
-          <div class="content3">
-            <!-- <h2>Biota Laut</h2> -->
-            <p> Satwa liar yang dilindungi di Geopark Ciletuh sangat banyak dan beragam. Diantaranya dijumpai hewan seperti macan tutul, raptor (elang laut, elang ularbido dan elang brontok). Keragaman tanaman langka dan endemik seperti berbagai macam jenis bambu, laban, malaka, jeunti, kepuh, santigi, waru dan Raflesia Padma</p> 
-          </div>     
-      </div>      
-  </div>
-</section>
-<!-- show image -->
-<section>
+          <div class="slide">
+            <img src="./assets/img/konservasi (2).webp" alt="">
+            <div class="info">
+              <h2>Hutan Konservasi Cipeucang</h2>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="./assets/img/konservasi (3).webp" alt="">
+            <div class="info">
+              <h2>Area Konservasi Penyu</h2>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="./assets/img/konservasi (4).webp" alt="">
+            <div class="info">
+              <h2>Hutan Konservasi Mangrove</h2>
+            </div>
+          </div>
+          <div class="navigation">
+            <div class="btn active"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+          </div>
+        </div>
+    
+        <script type="text/javascript">
+        var slides = document.querySelectorAll('.slide');
+        var btns = document.querySelectorAll('.btn');
+        let currentSlide = 1;
+    
+        //js image navigasi slider manual
+        var manualNav = function(manual){
+          slides.forEach((slide) => {
+            slide.classList.remove('active');
+    
+            btns.forEach((btn) => {
+              btn.classList.remove('active');
+            });
+          });
+    
+          slides[manual].classList.add('active');
+          btns[manual].classList.add('active');
+        }
+    
+        btns.forEach((btn, i) => {
+          btn.addEventListener("click", () => {
+            manualNav(i);
+            currentSlide = i;
+          });
+        });
+    
+        //js image navigasi slider autoplay
+        var repeat = function(activeClass){
+          let active = document.getElementsByClassName('active');
+          let i = 1;
+    
+          var repeater = () => {
+            setTimeout(function(){
+              [...active].forEach((activeSlide) => {
+                activeSlide.classList.remove('active');
+              });
+    
+            slides[i].classList.add('active');
+            btns[i].classList.add('active');
+            i++;
+    
+            if(slides.length == i){
+              i = 0;
+            }
+            if(i >= slides.length){
+              return;
+            }
+            repeater();
+          }, 10000);
+          }
+          repeater();
+        }
+        repeat();
+        </script>
+  </section>
+
+  <!-- BIOTA LAUT -->
+  <section id="biotalaut">
+    <div class="body4">
+      <div class="container3">
+        <h2>BIOTA LAUT</h2>
+        <div class="card3">
+            <div class="imgBx">
+                <img src="./assets/img/bg biota1.webp">
+            </div>
+            <div class="content3">
+              <p>Kawasan laut di geopark Ciletuh-Palabuhanratu  sangat kaya akan biota lautnya, seperti berbagai macam terumbu karang, ikan, udang dan lobster, termasuk jenis ikan lumba-lumba. Kehadiran rombongan lumba-lumba menjadi atraksi wisata yang menarik di geopark. Dimana sekelompok lumba-lumba terlihat bermain di sekitar Teluk Ciletuh atau di Teluk Palabuhanratu.</p> 
+            </div>     
+        </div>      
+    </div>
+  </section>
+  <!-- show image -->
+  <section>
     <div class="container_2">
         <div class="row">
         <div class="image">
-            <img src="./assets/img/flora fauna (1).webp" alt="">
+            <img src="./assets/img/biota laut (1).webp" alt="">
             <div class="details">
             <div class="more">
-                <a class="read-more">Brotok <span>Eagle</span></a>
+                <a class="read-more">Headtail  <span>Fish</span></a>
             </div>
             </div>
         </div>
         <div class="image">
-            <img src="./assets/img/flora fauna (2).webp" alt="">
+            <img src="./assets/img/biota laut (2).webp" alt="">
             <div class="details">
             <div class="more">
-                <a class="read-more">Green <span>Turtle</span></a>
+                <a class="read-more">Tuna <span>Fish</span></a>
             </div>
             </div>
         </div>
         <div class="image">
-            <img src="./assets/img/flora fauna (3).webp" alt="">
+            <img src="./assets/img/biota laut (3).webp" alt="">
             <div class="details">
             <div class="more">
-                <a class="read-more">Long Tailed <span>Monkeys</span></a>
+                <a class="read-more">Different Type <span>of Dolphins</span></a>
             </div>
             </div>
         </div>
         </div>
         <div class="row">
         <div class="image">
-            <img src="./assets/img/flora fauna (4).webp" alt="">
+            <img src="./assets/img/biota laut (4).webp" alt="">
             <div class="details">
             <div class="more">
-                <a class="read-more">Raflesia <span>Padma</span></a>
+                <a class="read-more"><span>Lobsters</span></a>
             </div>
             </div>
         </div>
         <div class="image">
-            <img src="./assets/img/flora fauna (5).webp" alt="">
+            <img src="./assets/img/biota laut (5).webp" alt="">
             <div class="details">
             <div class="more">
-                <a class="read-more">Black <span>Bamboo</span></a>
+                <a class="read-more"> <span>Shrimp</span></a>
             </div>
             </div>
         </div>
         <div class="image">
-            <img src="./assets/img/flora fauna (6).webp" alt="">
+            <img src="./assets/img/biota laut (6).webp" alt="">
             <div class="details">
             <div class="more">
-                <a class="read-more">Various <span>Orchid</span></a>
+                <a class="read-more"> <span>Squid</span></a>
             </div>
             </div>
         </div>
         </div>
     </div>
-</section>
+  </section>
 
-<!-- KONSERVASI AREA -->
-<section class="budidaya">
-  <div class="container2">
-    <h2 class="main-title2">Area Konservasi</h2>
-    <div class="content2">
-      <div class="image2">
-        <img src="./assets/img/bg konservasi.webp" alt="">
-      </div>
-      <div class="text-box2">
-        <p>Area konservasi merupakan upaya menyelamatkan kehidupan di bumi dalam segala bentuk dan menjaga eksositem supaya berfungsi secara alami dan sehat. Keberadaan kawasan konservasi dalam sebuah geopark adalah hal yang paling utama. Geopark Ciletuh Palabuhanratu memiliki kawasan konservasi untuk perlindungan hayati dalam ekosistim yang alami berupa hutan primer dan hutan sekunder yaitu: Cagar Alam Cibanteng, Tangkubanparahu, Sukawayana, Suaka Margasatwa Cikepuh, dan Taman Wisata Alam Sukawayana yang dikelola Balai Konservasi Sumber Daya Alam (BKSDA) dan Konservasi Penyu Hijau dikelola Dinas Perikanan dan Kelautan, Provinsi Jawa Barat.</p>
+  <!-- BUDIDAYA AREA -->
+    <section id="budidaya" class="budidaya">
+    <div class="container2">
+      <h2 class="main-title2">Area Budidaya</h2>
+      <div class="content2">
+        <div class="image2">
+          <img src="./assets/img/bg budidaya.webp" alt="">
+        </div>
+        <div class="text-box2">
+          <p>Budidaya hayati di kawasan geopark memiliki potensi yang cukup besar untuk pertumbuhan perekonomian masyarakat. Area budidaya berada di luar kawasan konservasi BKSDA. Aneka keragaman hayati yang dikembangkan oleh masyarakat di sekitar kawasan dibedakan atas kelompok: tanaman pangan, hortikultura, perkebunan dan biofarmaka.  Tanaman hortikultura sudah cukup dikenal di kawasan Kecamatan Ciemas dan Ciracap berupa aneka buah-buahan dan sayuran. Area perkebunan yang sudah ada seperti perkebunan teh Bojongasih, perkebunan kelapa, kelapa sawit, cengkeh, dan karet yang terdapat di beberapa desa di Kecamatan Ciemas dan Ciracap. Tanaman biofarmaka berupa tanaman untuk bahan baku obat-obatan seperti serehwangi, kunyit, jahe, cengkeh dan lainnya.              
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- show image -->
-<section>
-    <div class="img-slider">
-        <div class="slide active">
-          <img src="./assets/img/konservasi (1).webp" alt="">
-          <div class="info">
-            <h2>Suaka Margasatwa Cikepuh</h2>
+  </section>
+  <section>
+      <div class="img-slider">
+          <div class="slide active">
+            <img src="./assets/img/budidaya (1).webp" alt="">
+            <div class="info">
+              <h2>"Huma" Paddy Field</h2>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="./assets/img/budidaya (2).webp" alt="">
+            <div class="info">
+              <h2>Perkebunan Buah Naga</h2>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="./assets/img/budidaya (3).webp" alt="">
+            <div class="info">
+              <h2>CPUGGp</h2>
+            </div>
+          </div>
+          <div class="navigation">
+            <div class="btn active"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
           </div>
         </div>
-        <div class="slide">
-          <img src="./assets/img/konservasi (2).webp" alt="">
-          <div class="info">
-            <h2>Hutan Konservasi Cipeucang</h2>
-          </div>
-        </div>
-        <div class="slide">
-          <img src="./assets/img/konservasi (3).webp" alt="">
-          <div class="info">
-            <h2>Area Konservasi Penyu</h2>
-          </div>
-        </div>
-        <div class="slide">
-          <img src="./assets/img/konservasi (4).webp" alt="">
-          <div class="info">
-            <h2>Hutan Konservasi Mangrove</h2>
-          </div>
-        </div>
-        <div class="navigation">
-          <div class="btn active"></div>
-          <div class="btn"></div>
-          <div class="btn"></div>
-          <div class="btn"></div>
-        </div>
-      </div>
-  
-      <script type="text/javascript">
-      var slides = document.querySelectorAll('.slide');
-      var btns = document.querySelectorAll('.btn');
-      let currentSlide = 1;
-  
-      //js image navigasi slider manual
-      var manualNav = function(manual){
-        slides.forEach((slide) => {
-          slide.classList.remove('active');
-  
-          btns.forEach((btn) => {
-            btn.classList.remove('active');
+    
+        <script type="text/javascript">
+        var slides = document.querySelectorAll('.slide');
+        var btns = document.querySelectorAll('.btn');
+        let currentSlides = 1;
+    
+        //js image navigasi slider manual
+        var manualNav = function(manual){
+          slides.forEach((slide) => {
+            slide.classList.remove('active');
+    
+            btns.forEach((btn) => {
+              btn.classList.remove('active');
+            });
+          });
+    
+          slides[manual].classList.add('active');
+          btns[manual].classList.add('active');
+        }
+    
+        btns.forEach((btn, i) => {
+          btn.addEventListener("click", () => {
+            manualNav(i);
+            currentSlides = i;
           });
         });
-  
-        slides[manual].classList.add('active');
-        btns[manual].classList.add('active');
-      }
-  
-      btns.forEach((btn, i) => {
-        btn.addEventListener("click", () => {
-          manualNav(i);
-          currentSlide = i;
-        });
-      });
-  
-      //js image navigasi slider autoplay
-      var repeat = function(activeClass){
-        let active = document.getElementsByClassName('active');
-        let i = 1;
-  
-        var repeater = () => {
-          setTimeout(function(){
-            [...active].forEach((activeSlide) => {
-              activeSlide.classList.remove('active');
-            });
-  
-          slides[i].classList.add('active');
-          btns[i].classList.add('active');
-          i++;
-  
-          if(slides.length == i){
-            i = 0;
-          }
-          if(i >= slides.length){
-            return;
+    
+        //js image navigasi slider 
+        var repeat = function(activeClass){
+          let active = document.getElementsByClassName('active');
+          let i = 1;
+    
+          var repeater = () => {
+            setTimeout(function(){
+              [...active].forEach((activeSlidesx) => {
+                activeSlide.classList.remove('active');
+              });
+    
+            slides[i].classList.add('active');
+            btns[i].classList.add('active');
+            i++;
+    
+            if(slides.length == i){
+              i = 0;
+            }
+            if(i >= slides.length){
+              return;
+            }
+            repeater();
+          }, 10000);
           }
           repeater();
-        }, 10000);
         }
-        repeater();
-      }
-      repeat();
-      </script>
-</section>
-
-<!-- BIOTA MARITIM -->
-<section>
-  <div class="body4">
-    <div class="container3">
-      <h2>BIOTA LAUT</h2>
-      <div class="card3">
-          <div class="imgBx">
-              <img src="./assets/img/bg biota1.webp">
-          </div>
-          <div class="content3">
-            <p>Kawasan laut di geopark Ciletuh-Palabuhanratu  sangat kaya akan biota lautnya, seperti berbagai macam terumbu karang, ikan, udang dan lobster, termasuk jenis ikan lumba-lumba. Kehadiran rombongan lumba-lumba menjadi atraksi wisata yang menarik di geopark. Dimana sekelompok lumba-lumba terlihat bermain di sekitar Teluk Ciletuh atau di Teluk Palabuhanratu.</p> 
-          </div>     
-      </div>      
-  </div>
-</section>
-<!-- show image -->
-<section>
-  <div class="container_2">
-      <div class="row">
-      <div class="image">
-          <img src="./assets/img/biota laut (1).webp" alt="">
-          <div class="details">
-          <div class="more">
-              <a class="read-more">Headtail  <span>Fish</span></a>
-          </div>
-          </div>
-      </div>
-      <div class="image">
-          <img src="./assets/img/biota laut (2).webp" alt="">
-          <div class="details">
-          <div class="more">
-              <a class="read-more">Tuna <span>Fish</span></a>
-          </div>
-          </div>
-      </div>
-      <div class="image">
-          <img src="./assets/img/biota laut (3).webp" alt="">
-          <div class="details">
-          <div class="more">
-              <a class="read-more">Different Type <span>of Dolphins</span></a>
-          </div>
-          </div>
-      </div>
-      </div>
-      <div class="row">
-      <div class="image">
-          <img src="./assets/img/biota laut (4).webp" alt="">
-          <div class="details">
-          <div class="more">
-              <a class="read-more"><span>Lobsters</span></a>
-          </div>
-          </div>
-      </div>
-      <div class="image">
-          <img src="./assets/img/biota laut (5).webp" alt="">
-          <div class="details">
-          <div class="more">
-              <a class="read-more"> <span>Shrimp</span></a>
-          </div>
-          </div>
-      </div>
-      <div class="image">
-          <img src="./assets/img/biota laut (6).webp" alt="">
-          <div class="details">
-          <div class="more">
-              <a class="read-more"> <span>Squid</span></a>
-          </div>
-          </div>
-      </div>
-      </div>
-  </div>
-</section>
-
-<!-- BUDIDAYA AREA -->
-  <section class="budidaya">
-  <div class="container2">
-    <h2 class="main-title2">Area Budidaya</h2>
-    <div class="content2">
-      <div class="image2">
-        <img src="./assets/img/bg budidaya.webp" alt="">
-      </div>
-      <div class="text-box2">
-        <p>Budidaya hayati di kawasan geopark memiliki potensi yang cukup besar untuk pertumbuhan perekonomian masyarakat. Area budidaya berada di luar kawasan konservasi BKSDA. Aneka keragaman hayati yang dikembangkan oleh masyarakat di sekitar kawasan dibedakan atas kelompok: tanaman pangan, hortikultura, perkebunan dan biofarmaka.  Tanaman hortikultura sudah cukup dikenal di kawasan Kecamatan Ciemas dan Ciracap berupa aneka buah-buahan dan sayuran. Area perkebunan yang sudah ada seperti perkebunan teh Bojongasih, perkebunan kelapa, kelapa sawit, cengkeh, dan karet yang terdapat di beberapa desa di Kecamatan Ciemas dan Ciracap. Tanaman biofarmaka berupa tanaman untuk bahan baku obat-obatan seperti serehwangi, kunyit, jahe, cengkeh dan lainnya.              
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-<section>
-    <div class="img-slider">
-        <div class="slide active">
-          <img src="./assets/img/budidaya (1).webp" alt="">
-          <div class="info">
-            <h2>"Huma" Paddy Field</h2>
-          </div>
-        </div>
-        <div class="slide">
-          <img src="./assets/img/budidaya (2).webp" alt="">
-          <div class="info">
-            <h2>Perkebunan Buah Naga</h2>
-          </div>
-        </div>
-        <div class="slide">
-          <img src="./assets/img/budidaya (3).webp" alt="">
-          <div class="info">
-            <h2>CPUGGp</h2>
-          </div>
-        </div>
-        <div class="navigation">
-          <div class="btn active"></div>
-          <div class="btn"></div>
-          <div class="btn"></div>
-        </div>
-      </div>
-  
-      <script type="text/javascript">
-      var slides = document.querySelectorAll('.slide');
-      var btns = document.querySelectorAll('.btn');
-      let currentSlides = 1;
-  
-      //js image navigasi slider manual
-      var manualNav = function(manual){
-        slides.forEach((slide) => {
-          slide.classList.remove('active');
-  
-          btns.forEach((btn) => {
-            btn.classList.remove('active');
-          });
-        });
-  
-        slides[manual].classList.add('active');
-        btns[manual].classList.add('active');
-      }
-  
-      btns.forEach((btn, i) => {
-        btn.addEventListener("click", () => {
-          manualNav(i);
-          currentSlides = i;
-        });
-      });
-  
-      //js image navigasi slider 
-      var repeat = function(activeClass){
-        let active = document.getElementsByClassName('active');
-        let i = 1;
-  
-        var repeater = () => {
-          setTimeout(function(){
-            [...active].forEach((activeSlidesx) => {
-              activeSlide.classList.remove('active');
-            });
-  
-          slides[i].classList.add('active');
-          btns[i].classList.add('active');
-          i++;
-  
-          if(slides.length == i){
-            i = 0;
-          }
-          if(i >= slides.length){
-            return;
-          }
-          repeater();
-        }, 10000);
-        }
-        repeater();
-      }
-      repeat();
-      </script>
-</section>
-
+        repeat();
+        </script>
+      </section>
   <script src="./assets/js/swiper-bundle.min.js"></script>
   <script src="./assets/js/main.js"></script>
-
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+<footer>
+  <div class="waves">
+    <div class="wave" id="wave1"></div>
+    <div class="wave" id="wave2"></div>
+    <div class="wave" id="wave3"></div>
+    <div class="wave" id="wave4"></div>
+  </div>
+  <ul class="social_icon">
+      <li><a href="https://github.com/crumybrulee/micky-team"><ion-icon name="logo-github"></ion-icon></a></li>
+      <li><a href="https://twitter.com/infoPOLBAN?s=20&t=a2GMDi1cn_RXnb0LDjgwEw"><ion-icon name="logo-twitter"></ion-icon></a></li>
+      <li><a href="https://www.polban.ac.id/"><ion-icon name="school-outline"></ion-icon></a></li>
+  </ul>
+  <ul class="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#">Team</a></li>
+      <li><a href="https://services.global.ntt/">Design Source</a></li>
+      <li><a href="https://www.youtube.com/c/OnlineTutorials4Designers">Reference</a></li>
+    </ul>
+  <p>© Copyright Micky. All Rights Reserved Designed by Micky Team</p>
+</footer>
 </html>
-      
